@@ -1,18 +1,6 @@
 {
   "version": 1,
   "framework": { "name": "express", "version": "4.19.2" },
-  "imageSettings": {
-    "sizes": [
-      100,
-      200,
-      1920
-    ],
-    "domains": [],
-    "remotePatterns": [],
-    "formats": [],
-    "minimumCacheTTL": 60,
-    "dangerouslyAllowSVG": false
-  },
   "routes": [
     {
       "path": "/*",
@@ -25,7 +13,7 @@
   "computeResources": [
     {
       "name": "default",
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs20.x",
       "entrypoint": "index.js"
     }
   ]
